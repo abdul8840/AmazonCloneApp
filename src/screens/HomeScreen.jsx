@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import Header from '../components/Header';
 import SubHeader from '../components/SubHeader';
 import Category from '../components/Category';
+import Carousel from '../components/Carousel';
 
 const HomeScreen = () => {
     return (
@@ -10,6 +11,7 @@ const HomeScreen = () => {
             <Header />
             <SubHeader />
             <Category />
+            <Carousel />
         </View>
     );
 }
