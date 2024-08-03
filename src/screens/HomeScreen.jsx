@@ -1,20 +1,22 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import Header from '../components/Header';
 import SubHeader from '../components/SubHeader';
 import Category from '../components/Category';
 import Carousel from '../components/Carousel';
 import Services from '../components/Services';
+import Deals from '../components/Deals';
 
 const HomeScreen = () => {
     return (
-        <View>
+        <ScrollView showsVerticalScrollIndicator={false}>
             <Header />
             <SubHeader />
             <Category />
             <Carousel />
             <Services />
-        </View>
+            <Deals />
+        </ScrollView>
     );
 }
 
