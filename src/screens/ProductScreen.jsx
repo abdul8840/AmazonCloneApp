@@ -23,7 +23,7 @@ const ProductScreen = () => {
             <View style={styles.productImgSection}>
               <Image
                 style={styles.productImg}
-                source={{uri: getImgUrl(item.image)}}
+                source={item.image}
               />
             </View>
             <View style={styles.productDetailSection}>
